@@ -2,7 +2,6 @@ import math
 import tkinter as tk
 
 def calculate_bmi():
-    # Clear the previous result before validating a new calculation.
     result_label.config(text="", fg="red", wraplength=360)
     values = [weight_entry.get().strip(), feet_entry.get().strip(),
               inches_entry.get().strip()]
