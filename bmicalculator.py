@@ -44,7 +44,7 @@ def calculate_bmi():
         result_label.config(text="These values are outside the supported calculation range.")
         return
 
-    result_label.config(text=f"Your BMI is {bmi:1f}", fg="black")
+    result_label.config(text=f"Your BMI is {bmi:.2f}", fg="black")
 
 
 window = tk.Tk()
